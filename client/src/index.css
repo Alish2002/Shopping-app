@@ -1,0 +1,123 @@
+.app{
+  margin: 0;
+  scrollbar-width: 0;
+  
+
+}
+body{
+  margin-bottom: 60px;
+ 
+}
+body::-webkit-scrollbar { 
+  width: 0 !important
+ }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+   display: flex;
+   justify-content: center;
+   background-color: rgb(219, 216, 216);
+   
+   width: fit-content;
+   margin-left: 23%;
+   box-shadow: 1px 1px rgb(207, 206, 206);
+   
+}
+li{
+  
+  margin-left: 50px;
+  font-size: 25px;
+}
+.link{
+  color: black;
+  
+}
+
+.main{  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.imgshoe{
+  width: 300px;
+  /* height: 200px; */
+}
+.card{
+
+  border-radius: 2%;
+  background-color: rgb(228, 223, 223);
+  width: 320px;
+  padding-left: 4px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.blog{
+  width: 80vw;
+  position: absolute;
+  left: 20%;
+
+}
+.blogimg{
+  width: 900px;
+}
+
+.content{
+  width: 900px;
+  font-size: 22px;
+}
+p{
+  color: rgb(83, 83, 83);
+}
+h3,h4{
+  color: rgb(57, 57, 57);
+}
+.contact,.about{
+  width: 1000px;
+  margin-left: 20%;
+  font-size: 22px;
+}
+.header{
+  margin-bottom: 20px;
+  display: flex;
+
+  
+  
+}
+.footer{
+  background-color: rgb(173, 174, 173);
+  border-top: 2px solid rgb(56, 55, 55);
+  position: fixed;
+  width: 99.5%;
+  
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  height: 3rem;
+  
+}
+.footerContent{
+  font-size: 20px;
+ 
+  width: fit-content;
+}
+.cart{
+  text-align: end;
+  
+}
+.logo{
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  color: rgb(150, 155, 155);
+  font-weight: bold;
+}
