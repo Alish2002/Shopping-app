@@ -8,9 +8,9 @@ function Contact(){
       <h2>Contact Information</h2>
       
 
- <b>Address:</b> Room.No.16,Hostel No. 13, MMU,MULLANA<br></br>
-<b>Phone:</b> 8689014713<br></br>
-<b>Email:</b> pahwagautam786@gmail.com<br></br>
+ <b>Address:</b> Room.No.256,Hostel No. 4, MMU,MULLANA<br></br>
+<b>Phone:</b> 8989614713<br></br>
+<b>Email:</b> alishkamboj2002@gmail.com<br></br>
 <b>Business Hours:</b> 10 A.M. - 2 P.M.<br></br>
 <h2>Connect with Us:</h2>
 <p>

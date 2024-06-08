@@ -23,8 +23,7 @@ const register=(req,res)=>{
             newUser
             // chaining
                 .save()
-                .then(user=>res.json(user))
-                .catch(err=>console.log(err));
+                
         })
     })
     return res.json(newUser);

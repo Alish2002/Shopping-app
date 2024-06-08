@@ -6,19 +6,19 @@ const cors=require('cors');
 const route=require('./routes/route');
 
 // to connect with mongodb database
-// mongoose.connect('mongodb+srv://alishkamboj2002:alish@cluster0.esxycr0.mongodb.net/?retryWrites=true&w=majority',{
-//     // automatically detect changes in db
-//     useNewUrlParser:true,
-//     useUnifiedTopology:true
-// })
+mongoose.connect('mongodb+srv://alishkamboj2002:ecommerce123456789@cluster0.f5ro2e3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',{
+    // automatically detect changes in db
+    useNewUrlParser:true,
+    useUnifiedTopology:true
+})
 
 // // to make instance of database  to access it
-// const db=mongoose.connection;
+const db=mongoose.connection;
 
-// // db.on() is just like a listener
-// db.on('open',()=>{
-//     console.log("Connected to MongoDB.");
-// })
+// db.on() is just like a listener
+db.on('open',()=>{
+    console.log("Connected to MongoDB.");
+})
 
 // creating an instance of express server
 const app=express();

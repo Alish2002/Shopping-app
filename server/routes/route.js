@@ -4,8 +4,7 @@ const router=express.Router();
 
 const authController=require('../controller/authController');
 const config=require('../config')
-const jwt=require('jsonwebtoken');
-const pollController=require('../controller/pollController');
+
 
 const isAuthorized=(req,res,next)=>{
     const userToken=req.header('Authorization');
@@ -31,8 +30,7 @@ router.post('/auth/login',authController.login);
 // });
 
 
-// authorization on protected routes
-router.post('/create-poll',isAuthorized,pollController.createPoll);
+
 
 
 module.exports=router;

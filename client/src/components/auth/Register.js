@@ -37,25 +37,28 @@ const Register = () => {
         }
     }
   return (
-    <div>
-        <div>Register:</div>
+    <div className='container'>
+        <div className='login-head'>Register:</div>
        <form>
-          <label >name:</label>
-          <input
-          type='text'
-          name='username'
-          value={user.username}
-          onChange={(e)=>handleChange(e)}
-          ></input>
-          <label >password:</label>
-          <input
-            type='text'
-            name='password'
-            value={user.password}
-            onChange={(e)=>handleChange(e)}
-          >
-          </input>
-         <button type='submit'  onClick={(e)=>{handleSubmit(e)}} >Register</button> 
+       <div className="form-group">
+                    <label>Username:</label>
+                    <input
+                        type="text"
+                        name="username"
+                        value={user.username}
+                        onChange={handleChange}
+                    />
+                </div>
+                <div className="form-group">
+                    <label>Password:</label>
+                    <input
+                        type="password"
+                        name="password"
+                        value={user.password}
+                        onChange={handleChange}
+                    />
+                </div>
+         <button className='login-button' type='submit'  onClick={(e)=>{handleSubmit(e)}} >Register</button> 
        </form>
     </div>
   )
